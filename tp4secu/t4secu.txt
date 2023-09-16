@@ -1,0 +1,16 @@
+1. m = 42c0ffee93
+N = 02c99a781f
+s = 02306bf1b7
+
+2.Modexp signifie exponnetiation modulaire. 
+r := 1
+b := b % m
+tant que e != 0:
+	si e & 1 = 1 alors:
+		r := (r * b) % m
+	fin
+	b := (b * b) % m
+	e := e >> 1
+fin
+
+4. 

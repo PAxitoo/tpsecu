@@ -1,0 +1,38 @@
+Exercice 1.
+
+2. chiffrement par bloc
+3. RSP
+4.
+    a. 4 bits
+    b. 8 bits
+    c. 2 tours
+    d. XOR avec la clef du tour ensuite passage vers la boîte S
+    e. Au passage vers la boîte S
+    f. Identité
+
+Exercice 2.
+1. 
+    a. Le type KPA
+    b.  t0 = s(p) ;
+        p = k0 ^ t ;
+        s^{1}(tO) ^ t = k0 = la clef
+
+2. On peut plus faire le calcul en rajoutant un tour parce que il nous manque la valeur intermédiaire
+    
+3.
+    a. 16
+    b. Non car on ne pourras pas choisir quelle est la bonne clef, même si on les a toutes
+
+4. (2**8)*2 = 512 car 2 tours * 256 tests
+
+5.
+    b.que je ne trouve aucune clé.
+    c.le nombre d'eesie est insuffisant.
+    d. il faut 8192 tests
+
+    
+6.
+
+
+Exercice 3.
+

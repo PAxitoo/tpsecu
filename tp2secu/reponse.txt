@@ -1,0 +1,29 @@
+Exo1: 
+1.Il y a : une clef publique est composé d'un couple (e, n) avec e un entier premier strictement inférieur à phi_n et n le module de chiffrement
+
+une clef privée composé d'un couple (d, n) avec d l'inverse de e modulo phi_n et n toujours le module de chiffrement
+
+2. Ils doivent être faire la moitié la taille totale de la clef
+
+3.Il doit être un nombre premier strictement inférieur à phi_n
+
+4.On fait l'inverse modulaire de e modulo phi_n
+
+6. d = pow(e, -1, phi_n)
+
+
+Exo2: 
+1. Bob doit utiliser la clef publique de Alice
+   Alice doit utiliser sa clef privée
+
+2. 
+c = m**e mod n
+m = c**d mod n
+
+
+   
+
+
+
+
+ 
